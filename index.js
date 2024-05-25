@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = socketIO(server);
 
 // Rota para servir uma página HTML estática
-app.get('/', (req, res) => {
+app.get('/teste', (req, res) => {
   res.send('<h1>Olá, mundo!</h1>');
 });
 
